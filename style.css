@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+      margin: 0;
+      padding: 0;
+}
+
+/*home page style*/
+#sidebar1{
+      height: 56vw;
+      width: auto;
+      display: flex;
+      background-color:#FFEFEF;
+      
+
+}
+#list-option
+{
+      
+      width: 165px;
+      background-color: #F3D0D7;
+      font-size: 18px;
+
+} 
+#content{
+      width: 90vw;
+}
+#inside-content{
+      height: 75vh;
+      width: 80vw;
+      margin: 144px auto;
+      display: flex;
+
+}
+#list-option li{
+      margin-top: 40px;
+      margin-left: 35px;
+      font-family: "Kanit", sans-serif;
+      list-style: none;
+      
+}
+#list-option li a{
+      text-decoration: none;
+      color: black;
+}
+#mypicture img{
+      height: 75vh;
+      border-radius: 300%;
+}
+#myinfo{
+      width: 200vw;
+      height: auto;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 50px;
+}
+#hello{
+      font-size: 90px;
+      font-family: "Edu TAS Beginner", cursive;
+}
+#name{
+      font-size: 45px;
+      font-family: "Poetsen One", sans-serif;
+      font-weight: bold;
+}
+#about{
+      font-size: 30px;
+      font-family: "Teko", sans-serif;
+      padding-top: 5px;
+      margin-top: 10px;
+ 
+}
+button
+{
+      font-size: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-right: 30px;
+      background-color:#FFEFEF;
+      
+}
+button:hover{
+      background-color: black;
+      color: white;
+}
+#list-option li:hover
+{
+      font-size: 20px;
+      font-weight: bold;
+}
+/*contact page style*/
+#content-inside h1{
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      margin-top: 100px;
+}
+.location{
+      display: flex;
+      margin-left: 550px;
+}
+.phone{
+      display: flex;
+      margin-left: 550px;
+      margin-top: 20px;
+}
+.email{
+      display: flex;
+      margin-left: 550px;
+      margin-top: 20px;
+
+}
+.location img{
+      height: 30px;
+      width: 30px;
+}
+.phone img{
+      height: 30px;
+      width: 30px;
+}
+
+.email img{
+      height: 30px;
+      width: 25px;
+}
+.outer-location{
+     margin-top: 100px;
+}
+
+/* about us page style*/
+
+#about_pic
+{
+      flex-direction: column;
+  
+}
+#about_pic img
+{
+      height: 200px;
+      width: 450px;
+      margin-left: 400px;
+      margin-top: -130px;
+
+
+}
+.intro
+{
+    flex-direction: column;     
+}
+
+/*project page style */
+
+
+#project_page h1
+{
+      text-align: center;
+      margin-top: 0px;
+      margin-left: 200px;
+      margin-bottom: 50px;
+
+}
+
+.first
+{
+      margin-left: 100px;
+      margin-bottom: 50px;
+      
+     
+}
+
+.second
+{
+      margin-left: 100px;
+     
+     
+
+}
